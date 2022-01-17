@@ -6,7 +6,7 @@ import Player from './Player';
 
 import '../App.css';
 
-  
+import '../index.css';
 
 
 class App extends React.Component {
