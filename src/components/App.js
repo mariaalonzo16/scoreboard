@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import Header from './Header';
 
@@ -9,23 +9,27 @@ import '../App.css';
 import '../index.css';
 
 
-class App extends React.Component {
+class App extends Component {
   state = {
     players: [
       {
         name: "Maria",
+        score: 0,
         id: 1
       },
       {
         name: "Jose",
+        score: 0,
         id: 2
       },
       {
         name: "Alonzo",
+        score: 0,
         id: 3
       },
       {
         name: "Claudino",
+        score: 0,
         id: 4
       }
     ]
@@ -51,6 +55,7 @@ class App extends React.Component {
         {this.state.players.map( player =>
           <Player 
             name={player.name}
+            score={player.score}
             id={player.id}
             key={player.id.toString()} 
             removePlayer={this.handleRemovePlayer}           
