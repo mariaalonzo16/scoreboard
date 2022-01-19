@@ -4,6 +4,8 @@ import Header from './Header';
 
 import Player from './Player';
 
+import AddPlayerForm from './AddPlayerForm';
+
 import '../App.css';
 
 import '../index.css';
@@ -35,6 +37,12 @@ class App extends Component {
     ]
   };
 
+  handleScoreChange = (index, delta) => {
+    this.setState( prevState => ({
+      score: prevState.players[index].score += delta
+    }));
+  }
+
   handleRemovePlayer = (id) => {
     this.setState( prevState => {
       return {
@@ -48,19 +56,23 @@ class App extends Component {
       <div className="scoreboard">
         <Header 
           title="Scoreboard" 
-          totalPlayers={this.state.players.length} 
+          players={this.state.players}
         />
   
         {/* Players list */}
-        {this.state.players.map( player =>
+        {this.state.players.map( (player, index) =>
           <Player 
             name={player.name}
             score={player.score}
             id={player.id}
-            key={player.id.toString()} 
+            key={player.id.toString()}
+            index={index}
+            changeScore={this.handleScoreChange} 
             removePlayer={this.handleRemovePlayer}           
           />
         )}
+
+        <AddPlayerForm />
       </div>
     );
   }
