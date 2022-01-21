@@ -6,14 +6,14 @@ import Stopwatch from './Stopwatch';
 
 import '../App.css';
 
-const Header = (props) => {
-    return (
-      <header>
-        <Stats players= {props.players}/>
-        <h1>{ props.title }</h1> 
-        <Stopwatch />
-      </header>
-    );
+const Header = ({ players, title}) => {
+  return (
+    <header>
+      <Stats players= {players}/>
+      <h1>{ title }</h1> 
+      <Stopwatch />
+    </header>
+  );
 }
 
 export default Header;
