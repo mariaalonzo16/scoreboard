@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
-
 import Header from './Header';
-
 import Player from './Player';
-
 import AddPlayerForm from './AddPlayerForm';
-
-import '../App.css';
-
 import '../index.css';
 
 
@@ -15,22 +9,22 @@ class App extends Component {
   state = {
     players: [
       {
-        name: "Maria",
+        name: "Alison",
         score: 0,
         id: 1
       },
       {
-        name: "Jose",
+        name: "Stephanie",
         score: 0,
         id: 2
       },
       {
-        name: "Alonzo",
+        name: "Raul",
         score: 0,
         id: 3
       },
       {
-        name: "Claudino",
+        name: "Victor",
         score: 0,
         id: 4
       }
@@ -39,10 +33,30 @@ class App extends Component {
 
   prevPlayerId= 4;
 
+  getHighScore = () => {
+    const scores = this.state.players.map( p => p.score );
+    const highScore = Math.max(...scores);
+    if (highScore) {
+      return highScore;
+    } 
+    return null;
+  }
+
   handleScoreChange = (index, delta) => {
-    this.setState( prevState => ({
-      score: prevState.players[index].score += delta
-    }));
+    this.setState( prevState => {
+      const updatedPlayers = [ ...prevState.players ];
+      const updatedPlayer = { ...updatedPlayers[index] };
+
+  
+      updatedPlayer.score += delta;
+
+      updatedPlayers[index] = updatedPlayer;
+
+
+      return {
+        players: updatedPlayers
+      };
+    });
   }
 
   handleAddPlayer = (name) => {
@@ -70,10 +84,11 @@ class App extends Component {
 
 
   render() {
+    const highScore = this.getHighScore();
+
     return (
       <div className="scoreboard">
         <Header 
-          title="Scoreboard" 
           players={this.state.players}
         />
   
@@ -86,7 +101,8 @@ class App extends Component {
             key={player.id.toString()}
             index={index}
             changeScore={this.handleScoreChange} 
-            removePlayer={this.handleRemovePlayer}           
+            removePlayer={this.handleRemovePlayer}
+            isHighScore={highScore === player.score}            
           />
         )}
 

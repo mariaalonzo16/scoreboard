@@ -1,3 +1,108 @@
+/* ELEMENT STYLES -------------------- */
+body {
+  background: #e8e7e7; 
+  font-family: arial;
+  text-transform: uppercase;
+}
+
+header {
+  color: #FFF;
+  padding: 5px 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: #b9459c;
+  border-bottom: solid 2px #D4CAFF;
+}
+
+header h1 {
+  flex-grow: 1;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+/* FORMS */
+form {
+  display: flex;
+  background-color: #b9459c;
+}
+
+input[type=text] {
+  flex-grow: 1;
+  border-width: 0 0 1px 0;
+  margin: 15px 10px 15px 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #8d337e;
+  border-style: none;
+  text-shadow: none;
+  text-transform: uppercase;
+  color: #ffcade;
+  letter-spacing: 2px;
+  outline: none;
+}
+
+input[type=text]::-webkit-input-placeholder{
+  color: #fcf5f7;
+  letter-spacing: 2px;
+}
+
+input[type=text]:focus{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+input[type=submit] {
+  display: block;
+  font-size: .6em;
+  margin: 15px 15px 15px 0; 
+  padding: 10px;
+  background-color: #8d337e;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-shadow: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button, 
+input[type=submit] {
+  outline: none;
+  transition: background-color 0.2s ease,
+              color 0.2s ease;
+}
+
+/* ICONS */
+svg {
+  width: 28px;
+  height: 19px;
+  margin-right: 5px;
+  fill: #F0F0F0;
+}
+
+.is-high-score {
+  fill: #FFC657;
+  animation: grow 0.35s ease-in-out;
+  transform-origin: 50% 50%;
+}
+
+@keyframes grow {
+  50% { transform: scale(1.4) rotate(-3deg); }
+}
+
+/* COMPONENT STYLES -------------------- */
+.scoreboard {
+  background: #fff;
+  width: 700px;
+  margin: 70px auto;
+  box-shadow: 0 2px 0 #ffcade;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
 .player {
   display: flex;
   font-size: 1.2em;
@@ -6,7 +111,7 @@
 }
 
 .player:last-of-type {
-  border-bottom-color: #D4CAFF;
+  border-bottom-color: #ffcade;
 }
 
 .player-name:hover .remove-player {
@@ -38,12 +143,13 @@
 
 .stats,
 .stopwatch {
-width: 170px;
+  width: 170px;
 }
 
 .stats {
-margin: 0 0 0 28px;
-font-weight: normal;
+  display: flex;
+  margin: 0 0 0 28px;
+  font-weight: normal;
 }
 
 .stats td:first-child {
@@ -60,7 +166,7 @@ font-weight: normal;
 .stopwatch {
   padding: 15px 10px 5px 10px;
   margin: -5px -10px -5px 10px;
-  background: #5B45B9;
+  background: #99307f;
 }
 
 .stopwatch-time {
@@ -71,7 +177,7 @@ font-weight: normal;
 
 .stopwatch button {
   margin: 8px 5px;
-  background-color: #44338D;
+  background-color: #8d337e;
   border-radius: 5px;
   padding: 7px 8px;
   border: none;
@@ -85,7 +191,7 @@ font-weight: normal;
 .stopwatch button:hover,
 input[type=submit]:hover {
   background: #fff;
-  color: #44338D;
+  color: #8d337e;
   cursor: pointer;
 }
 
@@ -97,8 +203,8 @@ input[type=submit]:hover {
 }
 
 .counter {
-display: flex;
-width: 190px;
+  display: flex;
+  width: 190px;
 }
 
 .counter-action {
