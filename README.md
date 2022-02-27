@@ -1,4 +1,4 @@
-![Scoreboard](img width="715" alt="Screen Shot 2022-02-27 at 5 15 49 PM" src="https://user-images.githubusercontent.com/93888269/155902149-73dff8c4-69a6-4f7a-93b4-de46809acc97.png")
+![Scoreboard]("https://user-images.githubusercontent.com/93888269/155902149-73dff8c4-69a6-4f7a-93b4-de46809acc97.png")
 
 <p align="center">Scoreboard is an interactive web application that tracks users points and number of players.</p>
 
@@ -33,11 +33,11 @@ The Scoreboard web application was created with the help of React. We use compon
 
 ## Usage
 
-After the project files are downloaded, feel free to edit the HTML, CSS, and JavaScript files. The HTML files can be found within the`pages` directory, while both CSS and JavaScript files can be found within the `public` directory. To preview the changes you make to the code, you can open the `index.html` root-directory file in your web browser.
+After the project files are downloaded, feel free to edit the JavaScript files within the components folder, and the CSS files. The JavaScript and CSS files can be found within the `src` directory. To preview the changes you make to the code, you can  `npm start` to start the application.
 
 ## Roadmap
 
- Star Wars Api remains an on-going project, open to contributions.  Functionality that could improve the UX include the following:
+ Scoreboard remains an on-going project, open to contributions. Functionality that could improve the UX include the following:
 
 1) Use a front-end framework
 2) Optimize the responsiveness
@@ -45,7 +45,7 @@ After the project files are downloaded, feel free to edit the HTML, CSS, and Jav
 
 ## Bugs and Issues
 
-See a bug or an issue with this project? [Open a new issue](https://github.com/mariaalonzo16/star-wars-api/issues) here on GitHub.
+See a bug or an issue with this project? [Open a new issue](https://github.com/mariaalonzo16/scoreboard/issues) here on GitHub.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -54,7 +54,7 @@ Please make sure to update tests as appropriate.
 
 ## About
 
-Star Wars API was created by and is maintained by [Maria Alonzo](https://www.linkedin.com/in/maria-alonzo-177282127/).
+Scoreboard was created by and is maintained by [Maria Alonzo](https://www.linkedin.com/in/maria-jose-alonzo-claudino/).
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
