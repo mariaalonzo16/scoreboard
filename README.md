@@ -1,26 +1,23 @@
-![Star Wars API]()
+![Scoreboard](img width="715" alt="Screen Shot 2022-02-27 at 5 15 49 PM" src="https://user-images.githubusercontent.com/93888269/155902149-73dff8c4-69a6-4f7a-93b4-de46809acc97.png")
 
-<p align="center">Scoreboard was created to show users .</p>
+<p align="center">Scoreboard is an interactive web application that tracks users points and number of players.</p>
 
 <p align="center"> :white_check_mark: :x: :white_check_mark: :x: :white_check_mark:</p>
 
 ## Description
 
-In this site, users are able to navigate through different pages to learn more about characters, films, and planets that are involved in the Star Wars Universe. 
-
-On each linked page, a JavaScript GET request is issued and users are able to easily access fetch API data via onclick() button events. Moreover, users are able to enjoy a consistent site layout that involves a classically themed header and different buttons that direct the user to their desired page. Additionally, the Google Font Montserrat was applied for customized styling.
+The Scoreboard web application was created with the help of React. We use components to pass down our props in an organize manner. We add interactivity with the use of diffrent event handlers.   
 
 
 ## Preview
 
 ![Scoreboard]()
 
-[Live Preview]()
+[Live Preview](https://user-images.githubusercontent.com/93888269/155904103-fffd33b8-7b2d-4efe-858d-e405a2e8bdf5.mp4)
 
 ## Business Use Case
 
-- Can generate traffic for potential users interested in Star Wars
-- Use as prototype for future projects involving fetch API
+- Scoreboard is able to provide users with a unique way to track points and players.
 
 ## Status
 
