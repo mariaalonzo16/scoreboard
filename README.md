@@ -6,20 +6,18 @@
 
 ## Description
 
-Scoreboard is a React application that provides users with an easy-to-use UI experience, it was built with the help of state, props, and event handlers. 
+Scoreboard is a React application that provides users with an easy-to-use UI experience. It was built with the help of state, props, and event handlers. 
 
-Users are able to add and subtract points, add and delete players, and track time with the use of a stopwatch. A unique feature the web application includes is a crown for the player with the most points which enhances the UI experience.
+Users are able to add and subtract points, add and delete players, and track time with the use of a stopwatch. A unique feature the web application includes is a crown for the player with the most points, which enhances the UI experience.
 
 
 ## Preview
+[Scoreboard](https://user-images.githubusercontent.com/93888269/155904103-fffd33b8-7b2d-4efe-858d-e405a2e8bdf5.mp4)
 
 [Live Preview](https://mariaalonzo16.github.io/scoreboard/)
-
-[Live Preview](https://user-images.githubusercontent.com/93888269/155904103-fffd33b8-7b2d-4efe-858d-e405a2e8bdf5.mp4)
-
 ## Business Use Case
 
-- Scoreboard is able to provide users with a unique way to track points and players.
+- Scoreboard is able to provide users with a unique way to track points and players
 
 ## Status
 
@@ -56,7 +54,7 @@ Please make sure to update tests as appropriate.
 
 ## About
 
-Scoreboard was created by and is maintained by [Maria Alonzo](https://www.linkedin.com/in/maria-jose-alonzo-claudino/).
+Scoreboard was created by and is maintained by [Maria Alonzo](https://www.linkedin.com/in/maria-jose-alonzo-claudino/). For orginal source code, visit [TreeHouse](https://teamtreehouse.com/home].
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
