@@ -1,4 +1,4 @@
-![Scoreboard](<img width="705" alt="Screen Shot 2022-02-27 at 5 49 25 PM" src="https://user-images.githubusercontent.com/93888269/155904980-c57b4007-a90c-482f-a832-d17d19b4dde0.png">)
+![Scoreboard]( https://user-images.githubusercontent.com/93888269/155904980-c57b4007-a90c-482f-a832-d17d19b4dde0.png )
 
 <p align="center">Scoreboard is an interactive web application that tracks users points and number of players.</p>
 
