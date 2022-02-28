@@ -13,7 +13,7 @@ Users are able to add and subtract points, add and delete players, and track tim
 
 ## Preview
 
-![Scoreboard](https://mariaalonzo16.github.io/scoreboard/)
+[Live Preview](https://mariaalonzo16.github.io/scoreboard/)
 
 [Live Preview](https://user-images.githubusercontent.com/93888269/155904103-fffd33b8-7b2d-4efe-858d-e405a2e8bdf5.mp4)
 
