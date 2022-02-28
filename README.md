@@ -31,11 +31,10 @@ Users are able to add and subtract points, add and delete players, and track tim
 
 1. Clone the repo: `git clone https://github.com/mariaalonzo16/scoreboard`
 2. Install dependencies: `npm install`
-3. Start the application: `npm run start`
 
 ## Usage
 
-After the project files are downloaded, feel free to edit the JavaScript files within the components folder, and the CSS file. The JavaScript and CSS files can be found within the `src` directory. To preview the changes you make to the code, you can run `npm start` to start the application.
+After the project files are downloaded, feel free to edit the JavaScript files within the components folder, and the CSS file. The JavaScript and CSS files can be found within the `src` directory. To preview the changes you make to the code, you can run `npm run start` to start the application.
 
 ## Roadmap
 
