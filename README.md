@@ -29,7 +29,9 @@ Users are able to add and subtract points, add and delete players, and track tim
 
 ## Download and Installation
 
-- Clone the repo: `git clone https://github.com/mariaalonzo16/scoreboard`
+1. Clone the repo: `git clone https://github.com/mariaalonzo16/scoreboard`
+2. Install dependencies: `npm install`
+3. Start the application: `npm run start`
 
 ## Usage
 
