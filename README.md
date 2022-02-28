@@ -35,15 +35,15 @@ Users are able to add and subtract points, add and delete players, and track tim
 
 ## Usage
 
-After the project files are downloaded, feel free to edit the JavaScript files within the components folder, and the CSS file. The JavaScript and CSS files can be found within the `src` directory. To preview the changes you make to the code, you can  `npm start` to start the application.
+After the project files are downloaded, feel free to edit the JavaScript files within the components folder, and the CSS file. The JavaScript and CSS files can be found within the `src` directory. To preview the changes you make to the code, you can run `npm start` to start the application.
 
 ## Roadmap
 
  Scoreboard remains an on-going project, open to contributions. Functionality that could improve the UX include the following:
 
-1) Context API to store players scores
+1) Add back-end server to store user data
 2) Optimize mobile view
-3) Interactivity with the use of different effects when a player wins
+
 
 ## Bugs and Issues
 
