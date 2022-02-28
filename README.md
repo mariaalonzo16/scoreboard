@@ -54,7 +54,7 @@ Please make sure to update tests as appropriate.
 
 ## About
 
-Scoreboard was created by and is maintained by [Maria Alonzo](https://www.linkedin.com/in/maria-jose-alonzo-claudino/). For orginal source code, visit TreeHouse (https://teamtreehouse.com/home).
+Scoreboard was created by and is maintained by [Maria Alonzo](https://www.linkedin.com/in/maria-jose-alonzo-claudino/). For orginal source code, visit [TreeHouse](https://teamtreehouse.com/home).
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
