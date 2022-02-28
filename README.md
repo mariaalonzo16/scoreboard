@@ -1,6 +1,6 @@
 ![Scoreboard]( https://user-images.githubusercontent.com/93888269/155904980-c57b4007-a90c-482f-a832-d17d19b4dde0.png )
 
-<p align="center">Scoreboard is an interactive web application that tracks users point values and number of players.</p>
+<p align="center">Scoreboard is an interactive web application that tracks user point values and number of players.</p>
 
 <p align="center"> :white_check_mark: :x: :white_check_mark: :x: :white_check_mark:</p>
 
@@ -8,7 +8,7 @@
 
 Scoreboard is a React application that provides users with an easy to use UI experience, it was built with the help of components, props, and event handlers. 
 
-Users are able to  add and subtract point, add and delete players, and track time with the use of a stopwatch. A unique feature the web application includes is a crown for whoever has the most points which enhnaces the UI experince for users.
+Users are able to add and subtract points, add and delete players, and track time with the use of a stopwatch. A unique feature the web application includes is a crown for the player with the most points which enhances the UI experience for users.
 
 
 ## Preview
@@ -35,7 +35,7 @@ Users are able to  add and subtract point, add and delete players, and track tim
 
 ## Usage
 
-After the project files are downloaded, feel free to edit the JavaScript files within the components folder, and the CSS files. The JavaScript and CSS files can be found within the `src` directory. To preview the changes you make to the code, you can  `npm start` to start the application.
+After the project files are downloaded, feel free to edit the JavaScript files within the components folder, and the CSS file. The JavaScript and CSS files can be found within the `src` directory. To preview the changes you make to the code, you can  `npm start` to start the application.
 
 ## Roadmap
 
@@ -43,7 +43,7 @@ After the project files are downloaded, feel free to edit the JavaScript files w
 
 1) Context API to store players scores
 2) Optimize mobile view
-3) Interactivity with the use of diffrent effects when a player wins
+3) Interactivity with the use of different effects when a player wins
 
 ## Bugs and Issues
 
