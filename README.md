@@ -1,13 +1,14 @@
 ![Scoreboard]( https://user-images.githubusercontent.com/93888269/155904980-c57b4007-a90c-482f-a832-d17d19b4dde0.png )
 
-<p align="center">Scoreboard is an interactive web application that tracks users points and number of players.</p>
+<p align="center">Scoreboard is an interactive web application that tracks users point values and number of players.</p>
 
 <p align="center"> :white_check_mark: :x: :white_check_mark: :x: :white_check_mark:</p>
 
 ## Description
 
-Scoreboard is a web application that has many benefits for users. Firstly, users are able to add and subtract points, add and delete players, and it includes a timer. 
-These features are made possible by the use of reusable components. In each component we pass down information through props. 
+Scoreboard is a React application that provides users with an easy to use UI experience, it was built with the help of components, props, and event handlers. 
+
+Users are able to  add and subtract point, add and delete players, and track time with the use of a stopwatch. A unique feature the web application includes is a crown for whoever has the most points which enhnaces the UI experince for users.
 
 
 ## Preview
@@ -40,9 +41,9 @@ After the project files are downloaded, feel free to edit the JavaScript files w
 
  Scoreboard remains an on-going project, open to contributions. Functionality that could improve the UX include the following:
 
-1) Use a front-end framework
-2) Optimize the responsiveness
-3) Use a back-end server
+1) Context API to store players scores
+2) Optimize mobile view
+3) Interactivity with the use of diffrent effects when a player wins
 
 ## Bugs and Issues
 
