@@ -6,7 +6,8 @@
 
 ## Description
 
-The Scoreboard web application was created with the help of React. We use components to pass down our props in an organize manner. We add interactivity with the use of diffrent event handlers.   
+Scoreboard is a web application that has many benefits for users. Firstly, users are able to add and subtract points, add and delete players, and it includes a timer. 
+These features are made possible by the use of reusable components. In each component we pass down information through props. 
 
 
 ## Preview
